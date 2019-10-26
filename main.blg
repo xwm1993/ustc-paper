@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: ustcthesis-numerical.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bib/ustc.bib
+Warning--empty year in miopen
+Warning--empty year in cudnn
+Warning--empty year in tensorrt
+Warning--empty year in cuda
+Warning--empty year in tensorrtinference
+Warning--empty year in deepstream
+Warning--empty year in tensorflow
+You've used 31 entries,
+            4083 wiz_defined-function locations,
+            1022 strings with 9633 characters,
+and the built_in function-call counts, 68125 in all, are:
+= -- 1893
+> -- 6250
+< -- 9094
++ -- 3143
+- -- 456
+* -- 664
+:= -- 10259
+add.period$ -- 93
+call.type$ -- 31
+change.case$ -- 54
+chr.to.int$ -- 2673
+cite$ -- 38
+duplicate$ -- 615
+empty$ -- 1735
+format.name$ -- 265
+if$ -- 17540
+int.to.chr$ -- 4
+int.to.str$ -- 32
+missing$ -- 0
+newline$ -- 167
+num.names$ -- 93
+pop$ -- 2355
+preamble$ -- 1
+purify$ -- 31
+quote$ -- 0
+skip$ -- 5816
+stack$ -- 0
+substring$ -- 3425
+swap$ -- 52
+text.length$ -- 224
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 375
+warning$ -- 7
+while$ -- 302
+width$ -- 0
+write$ -- 438
+(There were 7 warnings)

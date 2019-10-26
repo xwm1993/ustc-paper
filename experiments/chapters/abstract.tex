@@ -1,0 +1,34 @@
+% !TeX root = ../main.tex
+
+\begin{abstract}
+  目前，深度学习加速库被广泛地用于加速神经网络应用，例如，NVIDIA和AMD公司为了加速在GPU上的神经网络运算，分别推出了自己的深度学习加速库cuDNN和MIOpen，对卷积等经典神经网络算法做了优化处理，从而加速神经网络的推理和训练速度。本文通过调研和对比当下常用的神经网络加速库的编程模型和运行流程，针对深度学习加速库的运行时系统提出了几种优化技术，并在DianNao高性能神经网络计算库（DNNCL，DianNao Neuron Network Computing Library) 上进行了实现，实践证明，这些优化技术能大幅提高神经网络应用程序在该平台上的表现。
+  
+  论文围绕如何设计和实现基于DianNao系列神经网络加速器的高性能计算库的运行时优化系统而展开。论文主要解决如下问题：第一，神经网络应用程序编译时间太长，编译阶段对硬件资源要求较高，不利于在嵌入式等硬件资源有限的终端部署。第二，神经网络模型的权值数据量越来越大，保存神经网络模型需要占用大量的存储空间，如何压缩神经网络模型的体积。总的来说，本文内容包括：
+\begin{enumerate}
+  \item 实现了一种面向神经网络模型的指令存储和加载技术，能将深度学习框架计算任务对应的指令信息和数据信息离线保存到本地离线模型文件中，然后在运行时支持从文件中加载之前编译好的指令结合当前的输入数据进行计算。
+  \item 提出并实现了一种神经网络存储与识别技术，能准确的保存深度学习框架传下来的计算图信息。 
+  \item 提出并实现了一种指令缓存技术，能够避免相同神经网络应用程序的重复编译。
+  \item 实现了一种神经网络模型的压缩技术，对权值数据做量化处理，在保持精度损失在可接受的范围内能大幅减少神经网络模型的存储空间和部署时所占用的内存资源。
+\end{enumerate}
+
+  运行时系统是神经网络处理器软件栈中最重要的模块之一，主要负责资源管理和任务调度。本论文讨论神经网络处理器软件栈中运行时系统优化技术以及编码实现，从而提升神经网络加速库的表现。本文提出的优化技术有较强的通用性，不止限于DNNCL。
+  
+  \keywords{深度学习加速库；运行时优化；指令缓存；神经网络模型压缩}
+\end{abstract}
+
+\begin{enabstract}
+  Currently, deep learning acceleration libraries are widely used to accelerate neural network applications. For example, in order to accelerate neural network operations on GPUs, NVIDIA and ADM have launched their own deep learning acceleration libraries cuDNN and MIOpen, respectively. In these libraries, the reasoning and training processes of the neural network are accelerated by optimizing common algorithms, such as convolution, pooling, and activation. After investigating and comparing the programming model and running process of the commonly used neural network acceleration library, this dissertation proposes several optimization techniques for the runtime system of the deep learning acceleration library. It is implemented on the DianNao High Performance Neural Network Computation Library (DNNCL, DianNao Neuron Network Computing Library). The results show that these optimization techniques can greatly improve the performance of neural network applications on this platform.
+
+  The dissertation revolves around how to design and implement a runtime optimization system based on the DianNao series of neural network accelerator high performance computing libraries. The dissertation mainly solves the following problems: First, the neural network application compile time is too long, and the compile stage requires high hardware resources, which is not conducive to the deployment of terminals with limited hardware resources such as embedded. This dissertation proposes the idea of ​​instruction caching and timely compilation. By means of offline caching instructions, on the one hand, it can avoid repeated compilation of the same neural network program, on the other hand, it is convenient to deploy neural network applications on embedded terminals. Second, the amount of weight data of the neural network model is getting larger and larger. The preservation of the neural network model requires a large amount of storage space, and how to compress the volume of the neural network model. In this dissertation, by reducing the weight data, the storage space occupied by the weight data is reduced, thereby reducing the volume of the neural network. In general, the runtime optimization techniques proposed in this dissertation include: 
+\begin{enumerate}
+  \item an instruction storage for the neural network model And the loading technology can save the instruction information and the data information corresponding to the deep learning framework calculation task to the local file offline, and then support the calculation of the previously compiled instruction combined with the current input data at the runtime to perform calculation.
+  \item a neural network storage and recognition technology that accurately preserves the computational graph information passed down by the deep learning framework.
+  \item Instruction cache technology, which can avoid repeated compilation of the same neural network application；
+  \item A compression technique of the neural network model, which quantifies the weight data and can greatly reduce the nerve loss while maintaining the accuracy loss within an acceptable range. The storage space of the network model and the memory resources used during deployment.
+\end{enumerate}
+  
+  The runtime system is one of the most important modules in the neural network processor software stack, and is mainly responsible for resource management and task scheduling. This dissertation discusses the runtime system optimization techniques and coding implementations in the neural network processor software stack to improve the performance of the neural network acceleration library. The optimization techniques proposed in this dissertation have strong versatility and are not limited to DNNCL.
+
+  \enkeywords{Deep learning acceleration library; Runtime optimization;
+  Instruction cache; Neural network model compression}
+\end{enabstract}

@@ -1,0 +1,179 @@
+\begin{thebibliography}{31}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[陈云霁(2017)]{cyj}
+陈云霁.
+\newblock 从人工智能到神经网络处理器\allowbreak[J].
+\newblock 领导科学论坛, 2017\penalty0 (2):\penalty0 38-55.
+
+\bibitem[孙志军\ 等(2012)孙志军, 薛雷, 许阳明, and 王正]{szjxl}
+孙志军, 薛雷, 许阳明, 等.
+\newblock 深度学习研究综述\allowbreak[J].
+\newblock 计算机应用研究, 2012, 29\penalty0 (8):\penalty0 2806-2810.
+
+\bibitem[刘建伟\ 等(2014)刘建伟, 刘媛, and 罗雄麟]{ljwly}
+刘建伟, 刘媛, 罗雄麟.
+\newblock 深度学习研究进展\allowbreak[J].
+\newblock 计算机应用研究, 2014, 31\penalty0 (7):\penalty0 1921-1942.
+
+\bibitem[姜典坤(2018)]{jdk}
+姜典坤.
+\newblock
+  基于异构处理器的深度卷积神经网络加速系统设计与实现\allowbreak[R].
+\newblock 北京交通大学, 2018.
+
+\bibitem[王晶(2013)]{wangjin}
+王晶.
+\newblock 云环境下资源管理运行时优化技术研究\allowbreak[R].
+\newblock 复旦大学, 2013.
+
+\bibitem[Rosenblatt(1960)]{frosenb}
+ROSENBLATT~F.
+\newblock Perceptron simulation experiments\allowbreak[J].
+\newblock Proceedings of the Ire, 1960, 48\penalty0 (3):\penalty0 301-309.
+
+\bibitem[郭振宇\ 等(2006)郭振宇, 刘利, and 陈彧]{gzyll}
+郭振宇, 刘利, 陈彧.
+\newblock 减小运行时优化开销的方法\allowbreak[J].
+\newblock 计算机工程, 2006, 32\penalty0 (24).
+
+\bibitem[朱晓珺\ 等(2009)朱晓珺 and 李冬梅]{zxj}
+朱晓珺, 李冬梅.
+\newblock C/C~(++)程序的运行时优化研究\allowbreak[J].
+\newblock 软件导刊, 2009, 8\penalty0 (4):\penalty0 60-62.
+
+\bibitem[刘弢\ 等(2008)刘弢, 范彬, and 吴承勇]{fbwcy}
+刘弢, 范彬, 吴承勇.
+\newblock
+  数据流Java并行程序设计模型的设计、实现及运行时优化\allowbreak[J].
+\newblock 软件学报, 2008, 19\penalty0 (9).
+
+\bibitem[黄春\ 等(2006)黄春 and 杨学军]{hcyxj}
+黄春, 杨学军.
+\newblock 基于值-剖面的OpenMP运行时优化系统\allowbreak[J].
+\newblock 计算机工程与科学, 2006, 28\penalty0 (12).
+
+\bibitem[吕向阳(2014)]{lxy}
+吕向阳.
+\newblock 基于CPU+GPU的图像处理异构并行计算研究\allowbreak[R].
+\newblock 南昌大学, 2014.
+
+\bibitem[AMD()]{miopen}
+AMD.
+\newblock Rocm software platform\allowbreak[EB/OL].
+\newblock \url{https://rocmsoftwareplatform.github.io/MIOpen/doc/html/}.
+
+\bibitem[Nvidia({\natexlab{a}})]{cudnn}
+NVIDIA.
+\newblock Nvidia developer\allowbreak[EB/OL].
+\newblock \url{https://developer.nvidia.com/cudnn}.
+
+\bibitem[杨志刚(2017)]{yzg}
+杨志刚.
+\newblock 基于分布式深度学习系统的视频动作识别\allowbreak[R].
+\newblock 中国科学技术大学, 2017.
+
+\bibitem[Nvidia({\natexlab{b}})]{tensorrt}
+NVIDIA.
+\newblock Nvidia tensorrt\allowbreak[EB/OL].
+\newblock \url{https://developer.nvidia.com/tensorrt}.
+
+\bibitem[Nvidia({\natexlab{c}})]{cuda}
+NVIDIA.
+\newblock Cuda toolkit\allowbreak[EB/OL].
+\newblock \url{https://developer.nvidia.com/cuda-toolkit}.
+
+\bibitem[正午之阳()]{tensorrtinference}
+正午之阳.
+\newblock TensorRT
+  Inference引擎简介及加速原理简介\allowbreak[EB/OL].
+\newblock \url{https://blog.csdn.net/xh_hit/article/details/79769599}.
+
+\bibitem[Nvidia({\natexlab{d}})]{deepstream}
+NVIDIA.
+\newblock Nvidia deepstream\allowbreak[EB/OL].
+\newblock \url{https://developer.nvidia.com/deepstream-sdk}.
+
+\bibitem[张维(2015)]{zhangwei}
+张维.
+\newblock 针对循环的内存访问模式分析与应用\allowbreak[R].
+\newblock 中国科学技术大学, 2015.
+
+\bibitem[刘章林(2006)]{lzl}
+刘章林.
+\newblock 基于机器学习的编译优化适应性研究\allowbreak[R].
+\newblock 中国科学院研究生院（计算技术研究所）, 2006.
+
+\bibitem[林桂芳(2018)]{lgf}
+林桂芳.
+\newblock 异构化TensorFlow架构的研究与实现\allowbreak[R].
+\newblock 浙江理工大学, 2018.
+
+\bibitem[Chen~T(2014)]{chent}
+CHEN~T~S~N, Du~Z.
+\newblock Diannao: A small-footprint high-throughput accelerator for ubiquitous
+  machine-learning\allowbreak[C]//\allowbreak
+Proceedings of the 19th international conference on Architectural support for
+  programming languages and operating systems.
+\newblock ACM, 2014.
+
+\bibitem[Liu~D(2015)]{liuD}
+LIU~D~L~S, Chen~T.
+\newblock Pudiannao: A polyvalent machine learning accelerator\allowbreak[J].
+\newblock ACM SIGPLAN Notices, 2015, 50\penalty0 (4):\penalty0 369-381.
+
+\bibitem[Liu~S(2016)]{lius}
+LIU~S~T~J, Du~Z.
+\newblock Cambricon: An instruction set architecture for neural
+  networks\allowbreak[C]//\allowbreak
+2016 ACM/IEEE 43rd Annual International Symposium on Computer Architecture
+  (ISCA). IEEE Computer Society.
+\newblock ACM/IEEE, 2016.
+
+\bibitem[Chen~Y(2014)]{cheny}
+CHEN~Y~T~O, Sun~N.
+\newblock Dadiannao: A machine-learning
+  supercomputer\allowbreak[C]//\allowbreak
+2014 47th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO).
+  IEEE Computer Society.
+\newblock ACM/IEEE, 2014.
+
+\bibitem[(美)RandyAllen\ 等(2004)(美)RandyAllen, (美)KenKennedy, and
+  张兆庆等译]{randy}
+(美)RandyAllen, (美)KenKennedy, 张兆庆等译.
+\newblock 现代体系结构的优化编译器\allowbreak[M].
+\newblock 机械工业出版社, 2004.
+
+\bibitem[杨旭瑜\ 等(2016)杨旭瑜, 张铮, and 张为华]{zhangweihua}
+杨旭瑜, 张铮, 张为华.
+\newblock 深度学习加速技术研究\allowbreak[J].
+\newblock 计算机系统应用, 2016, 25\penalty0 (09):\penalty0 1-9.
+
+\bibitem[周聖元\ 等(2019)周聖元, 杜子东, and 陈云霁]{sparsenet}
+周聖元, 杜子东, 陈云霁.
+\newblock 稀疏神经网络加速器设计\allowbreak[J].
+\newblock 高技术通讯, 2019, 29\penalty0 (03):\penalty0 222-231.
+
+\bibitem[Bernd~Burgstaller(2012)]{improgram}
+BERND~BURGSTALLER~J~B, Bernhard~Scholz.
+\newblock A symbolic analysis framework for static analysis of imperative
+  programming languages\allowbreak[J].
+\newblock The Journal of Systems And Software, 2012, 85\penalty0 (6).
+
+\bibitem[Tiger()]{tensorflow}
+TIGER~R.
+\newblock TensorFlow 设计理念\allowbreak[EB/OL].
+\newblock \url{https://blog.csdn.net/qq_41455420/article/details/84777222}.
+
+\bibitem[董冕(2012)]{dongmian}
+董冕.
+\newblock
+  高性能混合计算协处理器计算内核的研究与实现\allowbreak[R].
+\newblock 华中科技大学, 2012.
+
+\end{thebibliography}
